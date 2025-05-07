@@ -73,6 +73,6 @@ genes = {
 gene = input("Digite o nome de um gene: ")
 
 if gene in genes.keys():
-    print (f"O tamanho do {gene} é {genes[gene_usuario]} pb")
+    print (f"O tamanho do {gene} é {genes[gene]} pb")
 else:
     print("Gene não encontrado.")
